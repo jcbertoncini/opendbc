@@ -47,5 +47,24 @@ BO_ 973 BREAKS: 8 XXX
  SG_ b : 0|0@0+ (4,5) [0|6] "," 0
 
 BO_ 520 GAS_PEDAL: 8 XXX
+ SG_ break_yes_no_hit_max : 33|2@1+ (1,0) [0|3] "" XXX
+ SG_ pedal_angle : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ RPM1 : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 56|6@1+ (1,0) [0|63] "" XXX
+ SG_ gas_something : 11|5@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 48|7@1+ (1,0) [0|127] "" XXX
 
 BO_ 773 STERRING: 8 XXX
+ SG_ NEW_SIGNAL_2 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ torque : 40|6@1+ (1,0) [0|63] "" XXX
+ SG_ STEERING_TORQUE : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 31|1@0+ (1,0) [0|1] "" XXX
+ SG_ STEERING_DIRECTION : 0|8@1+ (1,0) [0|255] "" XXX
+
+
+
+
+CM_ SG_ 520 pedal_angle "0 when no pressure 200 when full press down";
+CM_ SG_ 773 torque "reacts just after steering";
+CM_ SG_ 773 STEERING_DIRECTION "250 IS RIGHT 0 IS LEFT";
