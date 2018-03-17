@@ -33,7 +33,7 @@ NS_ :
 
 BS_:
 
-BU_: XXX
+BU_: XXX 0
 
 
 BO_ 1362 NEW_MSG_1: 8 XXX
@@ -43,5 +43,9 @@ BO_ 1362 NEW_MSG_1: 8 XXX
 BO_ 1544 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|2@1+ (1,0) [0|3] "" XXX
 
-BO_ 973 break: 8 XXX
- SG_ break pressure : 45|6@0+ (1,0) [0|63] "" XXX
+BO_ 973 BREAKS: 8 XXX
+ SG_ b : 0|0@0+ (4,5) [0|6] "," 0
+
+BO_ 520 GAS_PEDAL: 8 XXX
+
+BO_ 773 STERRING: 8 XXX
