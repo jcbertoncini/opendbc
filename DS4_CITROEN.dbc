@@ -37,8 +37,7 @@ BU_: XXX 0
 
 
 BO_ 1362 NEW_MSG_1: 8 XXX
- SG_ NEW_SIGNAL_1 : 46|6@0+ (1,0) [0|63] "" XXX
- SG_ NEW_SIGNAL_2 : 25|6@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_1 : 24|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1544 NEW_MSG_2: 8 XXX
 
@@ -66,14 +65,27 @@ BO_ 1042 Radio: 8 XXX
 BO_ 1074 NEW_MSG_3: 8 XXX
 
 BO_ 1960 Lights: 8 XXX
- SG_ usual_lights : 0|8@1+ (1,0) [0|255] "" XXX
- SG_ distance_ligts : 15|8@0+ (1,0) [0|1] "" XXX
+ SG_ distance_ligts?? : 15|8@0+ (1,0) [0|1] "" XXX
+ SG_ usual_lights?? : 0|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1080 NEW_MSG_4: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|3@1+ (1,0) [0|7] "" XXX
 
 BO_ 845 NEW_MSG_5: 8 XXX
  SG_ change_onstop : 56|7@1+ (0,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 40|4@1+ (1,0) [0|15] "" XXX
+
+BO_ 841 NEW_MSG_6: 8 XXX
+ SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 781 WHEEL_ROTATION: 8 XXX
+ SG_ REAR_RIGHT : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ RR : 48|6@1+ (1,0) [0|7] "" XXX
+ SG_ REAR_LEFT : 47|8@0+ (1,0) [0|127] "" XXX
+ SG_ FRONT_LEFT : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ FL : 0|6@1+ (1,0) [0|63] "" XXX
+ SG_ FRONT_RIGHT : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ RL : 32|6@1+ (1,0) [0|63] "" XXX
 
 
 
