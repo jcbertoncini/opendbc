@@ -41,7 +41,6 @@ BO_ 1362 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_2 : 25|6@1+ (1,0) [0|63] "" XXX
 
 BO_ 1544 NEW_MSG_2: 8 XXX
- SG_ NEW_SIGNAL_1 : 0|2@1+ (1,0) [0|3] "" XXX
 
 BO_ 973 BREAKS: 8 XXX
  SG_ b : 0|0@0+ (4,5) [0|6] "," 0
@@ -62,17 +61,19 @@ BO_ 773 STERRING: 8 XXX
  SG_ NEW_SIGNAL_4 : 31|1@0+ (1,0) [0|1] "" XXX
  SG_ STEERING_DIRECTION : 0|8@1+ (1,0) [0|255] "" XXX
 
-BO_ 781 Wheel speed?: 8 XXX
-
 BO_ 1042 Radio: 8 XXX
 
-BO_ 1299 RADAR?: 8 XXX
+BO_ 1074 NEW_MSG_3: 8 XXX
 
-BO_ 1010 time display?: 8 XXX
+BO_ 1960 Lights: 8 XXX
+ SG_ usual_lights : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ distance_ligts : 15|8@0+ (1,0) [0|1] "" XXX
 
-BO_ 952 VIN ?: 8 XXX
+BO_ 1080 NEW_MSG_4: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|3@1+ (1,0) [0|7] "" XXX
 
-BO_ 941 current track time: 8 XXX
+BO_ 845 NEW_MSG_5: 8 XXX
+ SG_ change_onstop : 56|7@1+ (0,0) [0|255] "" XXX
 
 
 
@@ -80,3 +81,4 @@ BO_ 941 current track time: 8 XXX
 CM_ SG_ 520 pedal_angle "0 when no pressure 200 when full press down";
 CM_ SG_ 773 torque "reacts just after steering";
 CM_ SG_ 773 STEERING_DIRECTION "250 IS RIGHT 0 IS LEFT";
+CM_ SG_ 845 change_onstop "maybe someting to do with batery charging?";
