@@ -62,6 +62,18 @@ BO_ 773 STERRING: 8 XXX
  SG_ NEW_SIGNAL_4 : 31|1@0+ (1,0) [0|1] "" XXX
  SG_ STEERING_DIRECTION : 0|8@1+ (1,0) [0|255] "" XXX
 
+BO_ 781 Wheel speed?: 8 XXX
+
+BO_ 1042 Radio: 8 XXX
+
+BO_ 1299 RADAR?: 8 XXX
+
+BO_ 1010 time display?: 8 XXX
+
+BO_ 952 VIN ?: 8 XXX
+
+BO_ 941 current track time: 8 XXX
+
 
 
 
