@@ -87,6 +87,9 @@ BO_ 781 WHEEL_ROTATION: 8 XXX
  SG_ FRONT_RIGHT : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ RL : 32|6@1+ (1,0) [0|63] "" XXX
 
+BO_ 1299 NEW_MSG_7: 8 XXX
+ SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+
 
 
 
