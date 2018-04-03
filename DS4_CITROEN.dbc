@@ -46,6 +46,11 @@ BO_ 1544 clim ?: 8 XXX
 
 BO_ 973 BREAKS: 8 XXX
  SG_ b : 0|0@0+ (4,5) [0|6] "," 0
+ SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 53|3@0+ (1,0) [0|7] "" XXX
 
 BO_ 520 GAS_PEDAL: 8 XXX
  SG_ break_yes_no_hit_max : 33|2@1+ (1,0) [0|3] "" XXX
@@ -171,6 +176,16 @@ BO_ 840 GEARBOX: 8 XXX
  SG_ NEW_SIGNAL_6 : 48|7@1+ (1,0) [0|127] "" XXX
 
 BO_ 809 NEW_MSG_16: 8 XXX
+ SG_ NEW_SIGNAL_1 : 8|7@1+ (1,0) [0|127] "" XXX
+
+BO_ 744 NEW_MSG_17: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|7@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_2 : 16|8@1+ (1,0) [0|127] "" XXX
+
+BO_ 969 NEW_MSG_18: 8 XXX
+ SG_ NEW_SIGNAL_1 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 0|6@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_3 : 56|7@1+ (1,0) [0|127] "" XXX
 
 
 
