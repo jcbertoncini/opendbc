@@ -38,8 +38,11 @@ BU_: XXX 0
 
 BO_ 1362 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_1 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 56|8@1+ (1,0) [0|255] "" XXX
 
-BO_ 1544 NEW_MSG_2: 8 XXX
+BO_ 1544 clim ?: 8 XXX
+ SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 48|7@1+ (1,0) [0|127] "" XXX
 
 BO_ 973 BREAKS: 8 XXX
  SG_ b : 0|0@0+ (4,5) [0|6] "," 0
@@ -65,8 +68,6 @@ BO_ 1042 Radio: 8 XXX
 BO_ 1074 NEW_MSG_3: 8 XXX
 
 BO_ 1960 Lights: 8 XXX
- SG_ distance_ligts?? : 15|8@0+ (1,0) [0|1] "" XXX
- SG_ usual_lights?? : 0|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1080 NEW_MSG_4: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|3@1+ (1,0) [0|7] "" XXX
@@ -89,6 +90,22 @@ BO_ 781 WHEEL_ROTATION: 8 XXX
 
 BO_ 1299 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 1426 NEW_MSG_2: 8 XXX
+ SG_ NEW_SIGNAL_1 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 40|5@1+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_3 : 24|6@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_4 : 56|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 1416 rpm: 8 XXX
+ SG_ NEW_SIGNAL_1 : 56|5@1+ (1,0) [0|31] "" XXX
+ SG_ link_accel : 32|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 1293 NEW_MSG_8: 8 XXX
+
+BO_ 1161 engine: 8 XXX
+ SG_ NEW_SIGNAL_1 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ ENGINE_TEMPERATURE : 24|7@1+ (1,0) [0|127] "" XXX
 
 
 
