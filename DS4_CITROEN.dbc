@@ -70,7 +70,9 @@ BO_ 1074 NEW_MSG_3: 8 XXX
 BO_ 1960 Lights: 8 XXX
 
 BO_ 1080 NEW_MSG_4: 8 XXX
- SG_ NEW_SIGNAL_1 : 0|3@1+ (1,0) [0|7] "" XXX
+ SG_ RPM_related : 21|7@0+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_1 : 9|5@1+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_2 : 0|7@1+ (1,0) [0|63] "" XXX
 
 BO_ 845 NEW_MSG_5: 8 XXX
  SG_ change_onstop : 56|7@1+ (0,0) [0|255] "" XXX
@@ -90,6 +92,7 @@ BO_ 781 WHEEL_ROTATION: 8 XXX
 
 BO_ 1299 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 16|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1426 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 32|8@1+ (1,0) [0|255] "" XXX
@@ -106,6 +109,7 @@ BO_ 1293 NEW_MSG_8: 8 XXX
 BO_ 1161 engine: 8 XXX
  SG_ NEW_SIGNAL_1 : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ ENGINE_TEMPERATURE : 24|7@1+ (1,0) [0|127] "" XXX
+ SG_ mmmm : 0|8@1+ (1,0) [0|255] "" XXX
 
 
 
