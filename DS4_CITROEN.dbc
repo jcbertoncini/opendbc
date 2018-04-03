@@ -66,10 +66,13 @@ BO_ 773 STERRING: 8 XXX
 BO_ 1042 Radio: 8 XXX
 
 BO_ 1074 NEW_MSG_3: 8 XXX
+ SG_ temp : 56|7@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 48|6@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_2 : 40|2@1+ (1,0) [0|3] "" XXX
 
 BO_ 1960 Lights: 8 XXX
 
-BO_ 1080 NEW_MSG_4: 8 XXX
+BO_ 1080 rpm related: 8 XXX
  SG_ RPM_related : 21|7@0+ (1,0) [0|127] "" XXX
  SG_ NEW_SIGNAL_1 : 9|5@1+ (1,0) [0|31] "" XXX
  SG_ NEW_SIGNAL_2 : 0|7@1+ (1,0) [0|63] "" XXX
@@ -110,6 +113,64 @@ BO_ 1161 engine: 8 XXX
  SG_ NEW_SIGNAL_1 : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ ENGINE_TEMPERATURE : 24|7@1+ (1,0) [0|127] "" XXX
  SG_ mmmm : 0|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 1010 interior temp: 8 XXX
+ SG_ temp : 16|5@1+ (1,0) [0|31] "" XXX
+
+BO_ 1128 NEW_MSG_4: 8 XXX
+ SG_ 2 : 24|2@1+ (1,0) [0|3] "" XXX
+ SG_ 9 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ 32 : 0|6@1+ (1,0) [0|63] "" XXX
+ SG_ 135 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ 224 : 32|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 1101 NEW_MSG_9: 8 XXX
+ SG_ NEW_SIGNAL_2 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 0|6@1+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_3 : 16|6@1+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_4 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 32|6@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_6 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_7 : 48|7@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_8 : 56|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 952 NEW_MSG_10: 8 XXX
+ SG_ NEW_SIGNAL_1 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ DECREASE8WHENN8ACCELERATION : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 40|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 909 NEW_MSG_11: 8 XXX
+ SG_ NEW_SIGNAL_1 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 16|8@1+ (1,0) [0|127] "" XXX
+ SG_ ACCELL : 32|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 905 NEW_MSG_12: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|5@1+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 1037 NEW_MSG_13: 8 XXX
+
+BO_ 968 NEW_MSG_14: 8 XXX
+ SG_ 4 : 0|3@1+ (1,0) [0|7] "" XXX
+
+BO_ 941 NEW_MSG_15: 8 XXX
+ SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 32|7@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_3 : 16|3@1+ (1,0) [0|7] "" XXX
+
+BO_ 840 GEARBOX: 8 XXX
+ SG_ ENGAGED_GEAR : 7|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 8|7@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_2 : 16|6@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_3 : 24|6@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_4 : 32|5@1+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_5 : 40|2@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_6 : 48|7@1+ (1,0) [0|127] "" XXX
+
+BO_ 809 NEW_MSG_16: 8 XXX
 
 
 
