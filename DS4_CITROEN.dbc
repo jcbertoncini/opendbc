@@ -55,10 +55,10 @@ BO_ 973 BREAKS: 8 XXX
 BO_ 520 GAS_PEDAL: 8 XXX
  SG_ break_yes_no_hit_max : 33|2@1+ (1,0) [0|3] "" XXX
  SG_ pedal_angle : 24|8@1+ (1,0) [0|255] "" XXX
- SG_ RPM1 : 16|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 56|6@1+ (1,0) [0|63] "" XXX
  SG_ gas_something : 11|5@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 48|7@1+ (1,0) [0|127] "" XXX
+ SG_ RPM1 : 16|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 773 STERRING: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|8@1+ (1,0) [0|255] "" XXX
@@ -86,8 +86,13 @@ BO_ 845 NEW_MSG_5: 8 XXX
  SG_ change_onstop : 56|7@1+ (0,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 40|4@1+ (1,0) [0|15] "" XXX
 
-BO_ 841 NEW_MSG_6: 8 XXX
- SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+BO_ 841 SPEED: 8 XXX
+ SG_ NEW_SIGNAL_1 : 48|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ SPEED2 : 24|7@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_3 : 40|7@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_4 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 16|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 781 WHEEL_ROTATION: 8 XXX
  SG_ REAR_RIGHT : 56|8@1+ (1,0) [0|255] "" XXX
@@ -157,6 +162,7 @@ BO_ 905 NEW_MSG_12: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1037 NEW_MSG_13: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|6@1+ (1,0) [0|63] "" XXX
 
 BO_ 968 NEW_MSG_14: 8 XXX
  SG_ 4 : 0|3@1+ (1,0) [0|7] "" XXX
@@ -186,6 +192,25 @@ BO_ 969 NEW_MSG_18: 8 XXX
  SG_ NEW_SIGNAL_1 : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 0|6@1+ (1,0) [0|63] "" XXX
  SG_ NEW_SIGNAL_3 : 56|7@1+ (1,0) [0|127] "" XXX
+ SG_ TURBO : 32|6@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_4 : 40|7@1+ (1,0) [0|127] "" XXX
+
+BO_ 552 NEW_MSG_6: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|6@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_2 : 16|6@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_3 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 48|6@1+ (1,0) [0|63] "" XXX
+
+BO_ 1160 NEW_MSG_19: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|7@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 16|7@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_4 : 24|3@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_5 : 32|5@1+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_6 : 48|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_7 : 56|6@1+ (1,0) [0|63] "" XXX
+ SG_ NETEMP : 40|7@1+ (1,0) [0|127] "" XXX
 
 
 
